@@ -1,0 +1,6 @@
+O java script pode ser executado no navegador ao inspencionar a pagina e utilizar o console.
+
+Exemplo básico
+
+
+console.log("Hello");
