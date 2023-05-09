@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <meta charset="UTF-8">
+  
+  <style>
+    
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f16060;
+    }
+
+    h1 {
+      color: #ff2e13;
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
+
+    input[type="text"] {
+      color: rgb(162, 0, 255);
+      background-color: rgb(255, 255, 255);
+      font-size: 20px;
+      padding: 10px 20px;
+      border-radius: 10%;
+      margin-right: 20px;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      color: white;
+      background-color: #973636;
+      border-radius: 20%;
+      box-shadow: 0px 2px 10px rgba(255, 63, 63, 0.3);
+      cursor: pointer;
+    
+    }
+
+    ul {
+      margin-top: 25px;
+      list-style-type: none;
+      padding: 5;
+      width: 100%;
+      max-height: 250px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      box-shadow: 0px 2px 10px rgba(87, 85, 85, 0.3);
+   
+    }
+
+   
+    li {
+      color: #f75307e7;
+      font-size: 30px;
+      padding: 10px 20px;
+      border-bottom: 2px solid #7a7c02;
+   
+    }
+ 
+ </style>
+
+</head>
+
+<body>
+  
+  <div class="container">
+    
+    <h1>Escreva qualquer palavra!</h1>
+   
+    <div>
+      <input type="text" id="itemInput">
+      <button onclick="adicionarItem()">Adicionar</button>
+    
+    </div>
+    
+    <ul id="itemLista"></ul>
+  
+  </div>
+
+  <script src="javascript.js"></script>
+
+</body>
+
+</html>
